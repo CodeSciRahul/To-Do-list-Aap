@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(34, 193, 195);
+    background: -moz-linear-gradient(211deg, rgba(34, 193, 195, 1) 0%, rgba(58, 18, 5, 1) 100%);
+    background: -webkit-linear-gradient(211deg, rgba(34, 193, 195, 1) 0%, rgba(58, 18, 5, 1) 100%);
+    background: linear-gradient(211deg, rgba(34, 193, 195, 1) 0%, rgba(58, 18, 5, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3", endColorstr="#3a1205", GradientType=1);
+}
+
+.container {
+    background: rgb(238, 174, 202);
+    background: -moz-radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(8, 71, 145, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(8, 71, 145, 1) 100%);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(8, 71, 145, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca", endColorstr="#084791", GradientType=1);
+    border: 2px solid black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 300px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.container .task input {
+    width: 80%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 20px 5px;
+}
+
+.container .task button {
+    width: 15%;
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 20px 10;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container .list .iteam {
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 95%;
+}
+
+#ic {
+    font-size: 23px;
+    color: rgb(171, 28, 28);
+    cursor: pointer;
+}
+
+.iteam>button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
