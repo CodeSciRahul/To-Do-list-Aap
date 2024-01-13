@@ -64,6 +64,8 @@ h3 {
     overflow: auto;
 }
 .container .list .iteam {
+    min-width:95%;
+    max-width: fit-content;
     margin: 20px auto;
     padding: 10px 5px 10px 15px;
     border-radius: 5px;
@@ -71,10 +73,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     background-color: rgba(44, 148, 227, 0.684);
-    width: 95%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    
 }
 
 i {
